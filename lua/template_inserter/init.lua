@@ -14,6 +14,7 @@ M.config = {
         cpp = "template_inserter.templates.cpp",
         arduino = "template_inserter.templates.arduino",
         cmake = "template_inserter.templates.cmake",
+        qt = "template_inserter.templates.qt",
     },
 }
 
