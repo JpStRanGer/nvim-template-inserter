@@ -48,6 +48,7 @@ A simple and elegant Neovim plugin that lets you insert code templates into an *
 - cpp
 - arduino
 - cmake
+- Qt 
 - Each template is defined as a Lua module returning a table of lines. Example: html.lua
 
 ## 🛠️ Custom Templates (coming soon)
