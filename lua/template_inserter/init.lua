@@ -15,6 +15,7 @@ M.config = {
 		arduino = "template_inserter.templates.arduino",
 		cmake = "template_inserter.templates.cmake",
 		qt = "template_inserter.templates.qt",
+		vue = "template_inserter.templates.vue",
 	},
 }
 
@@ -28,7 +29,7 @@ function M.setup(opts)
 	end, {})
 
 	vim.keymap.set("n", M.config.keymap, function()
-		print("keymap reconised.")
+		print("keymap recognised.")
 		M.trigger()
 	end, { desc = "Insert template", noremap = true, silent = true })
 end
